@@ -77,7 +77,7 @@ public class AboutActivity extends BaseActivity {
                 }).subscribeOn(Schedulers.io())
                 .subscribe();
     }
-
+/*
     @OnClick(R.id.ll_github)
     void clickedGithub() {
         OpenUtils.openUrl(this, "https://github.com/leanote/leanote-android");
@@ -92,5 +92,5 @@ public class AboutActivity extends BaseActivity {
     void clickedThanks() {
         OpenUtils.openUrl(this, "https://github.com/leanote/leanote-android/graphs/contributors");
     }
-
+*/
 }

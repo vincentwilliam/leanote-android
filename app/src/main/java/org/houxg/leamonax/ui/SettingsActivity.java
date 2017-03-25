@@ -55,8 +55,8 @@ public class SettingsActivity extends BaseActivity {
     TextView mUserNameTv;
     @BindView(R.id.tv_email)
     TextView mEmailTv;
-    @BindView(R.id.tv_host)
-    TextView mHostTv;
+//    @BindView(R.id.tv_host)
+//    TextView mHostTv;
     @BindView(R.id.ll_clear)
     View mClearDataView;
 
@@ -275,7 +275,7 @@ public class SettingsActivity extends BaseActivity {
         mEditorTv.setText(mEditors[current.getDefaultEditor()]);
         mUserNameTv.setText(current.getUserName());
         mEmailTv.setText(current.getEmail());
-        mHostTv.setText(current.getHost());
+//        mHostTv.setText(current.getHost());
         Glide.with(this)
                 .load(current.getAvatar())
                 .centerCrop()
